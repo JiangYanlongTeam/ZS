@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ZSEcology.iml" filepath="$PROJECT_DIR$/ZSEcology.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZS.iml" filepath="$PROJECT_DIR$/ZS.iml" />
     </modules>
   </component>
 </project>
