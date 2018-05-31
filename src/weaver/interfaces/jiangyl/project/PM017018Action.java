@@ -153,12 +153,8 @@ public class PM017018Action extends BaseBean implements Action {
 		String ESUBJECT = WYHYJ_VAL;
 
 		ServicePortTypeProxy projectProxy = new ServicePortTypeProxy();
-		ServiceLocator serviceLocator = new ServiceLocator();
-		String address = serviceLocator.getServiceAddress();
-		writeLog("调用PM系统接口地址:" + address);
-
 		SOAPDTSHEAD head = new SOAPDTSHEAD();
-		head.setZJSYSTCD("OA1");
+		head.setZJSYSTCD("OA");
 		head.setZJAUTHOR("");
 		head.setZJBRANCH("320188990");
 		head.setZJCHANEL("Z10");
@@ -319,7 +315,7 @@ public class PM017018Action extends BaseBean implements Action {
 		String fzr_val = "";
 		String jhks_col = "jhks";
 		String jhks_val = "";
-		String jhjs_col = "jhjs";
+		String jhjs_col = "jsjs";
 		String jhjs_val = "";
 
 		writeLog("即将进入到明细表中>>>>>>>");
@@ -399,12 +395,12 @@ public class PM017018Action extends BaseBean implements Action {
 			t.setESUBJECT("");
 			t.setTSTARTDT("");
 			t.setTFINSTDT("");
-			t.setBUSITYP2("");
-			t.setODFUJISU(0);
+//			t.setBUSITYP2("");
+//			t.setODFUJISU(0);
 			t.setCOMMENTS("");
-			t.setSPARFLD3("");
-			t.setSPARFLD4("");
-			t.setADDCOND1("");
+//			t.setSPARFLD3("");
+//			t.setSPARFLD4("");
+//			t.setADDCOND1("");
 
 			writeLog("PROCCODE:" + PROCCODE);
 			writeLog("ADDCONDT:" + lcbjd_val);

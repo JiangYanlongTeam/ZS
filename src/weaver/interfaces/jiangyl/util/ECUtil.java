@@ -117,10 +117,17 @@ public class ECUtil extends BaseBean {
 		return requestmap;
 	}
 
+	public static int getFormidByRequestID(String requestid) {
+		RecordSet rs =new RecordSet();
+		rs.execute("select b.FORMID from WORKFLOW_REQUESTBASE a, workflow_base b where a.WORKFLOWID = b.id and a.REQUESTID = '"+requestid+"'");
+		rs.next();
+		return Util.getIntValue(rs.getString("FORMID"),0);
+	}
+
 	/**
-	 * 
+	 *
 	 * 方法描述 : 创建流程方法
-	 * 
+	 *
 	 * @param workflowid
 	 * @param userid
 	 *            创建人id
@@ -208,7 +215,7 @@ public class ECUtil extends BaseBean {
 
 		/**
 		 * 获取明细行数据
-		 * 
+		 *
 		 * @return
 		 */
 		public List<Map<String, String>> getList() {
@@ -217,7 +224,7 @@ public class ECUtil extends BaseBean {
 
 		/**
 		 * 设置明细行数据
-		 * 
+		 *
 		 * @return
 		 */
 		public void setList(List<Map<String, String>> list) {

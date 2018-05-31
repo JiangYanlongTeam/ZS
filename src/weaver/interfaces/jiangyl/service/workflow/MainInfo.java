@@ -1,6 +1,6 @@
 package weaver.interfaces.jiangyl.service.workflow;
 
-public class DetailCell {
+public class MainInfo {
     private String key;
     private String val;
 

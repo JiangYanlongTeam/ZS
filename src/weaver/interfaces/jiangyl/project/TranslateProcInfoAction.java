@@ -17,8 +17,8 @@ public class TranslateProcInfoAction extends BaseBean implements Action {
 	public String execute(RequestInfo request) {
 		RecordSet rs = new RecordSet();
 		String requestid = Util.null2String(request.getRequestid());
-		int formid = request.getRequestManager().getFormid();
-		String tableName = request.getRequestManager().getBillTableName();
+		int formid = ECUtil.getFormidByRequestID(requestid);
+		String tableName = "formtable_main_" + Math.abs(formid);
 		Map<String, Object> requestDataMap = ECUtil.getrequestdatamap(requestid, formid);
 		// 获取主表信息
 		@SuppressWarnings("unchecked")
@@ -54,7 +54,7 @@ public class TranslateProcInfoAction extends BaseBean implements Action {
 			if (!"".equals(zbbm)) {
 				writeLog("更新zbbm字段SQL：" + "update " + tableName + " set zbbm = '" + zbbm + "' where requestid = '"
 						+ requestid + "'");
-				rs.execute("更新zbbm字段SQL：" + "update " + tableName + " set zbbm = '" + zbbm + "' where requestid = '"
+				rs.execute("update " + tableName + " set zbbm = '" + zbbm + "' where requestid = '"
 						+ requestid + "'");
 			}
 		}
@@ -64,7 +64,7 @@ public class TranslateProcInfoAction extends BaseBean implements Action {
 			if (!"".equals(xmjl)) {
 				writeLog("更新xmjl字段SQL：" + "update " + tableName + " set xmjl = '" + xmjl + "' where requestid = '"
 						+ requestid + "'");
-				rs.execute("更新xmjl字段SQL：" + "update " + tableName + " set xmjl = '" + xmjl + "' where requestid = '"
+				rs.execute("update " + tableName + " set xmjl = '" + xmjl + "' where requestid = '"
 						+ requestid + "'");
 			}
 		}
@@ -74,7 +74,7 @@ public class TranslateProcInfoAction extends BaseBean implements Action {
 			if (!"".equals(xbbm)) {
 				writeLog("更新xbbm字段SQL：" + "update " + tableName + " set xbbm = '" + xbbm + "' where requestid = '"
 						+ requestid + "'");
-				rs.execute("更新xbbm字段SQL：" + "update " + tableName + " set xbbm = '" + xbbm + "' where requestid = '"
+				rs.execute("update " + tableName + " set xbbm = '" + xbbm + "' where requestid = '"
 						+ requestid + "'");
 			}
 		}
@@ -84,7 +84,7 @@ public class TranslateProcInfoAction extends BaseBean implements Action {
 			if (!"".equals(fgld)) {
 				writeLog("更新fgld字段SQL：" + "update " + tableName + " set fgld = '" + fgld + "' where requestid = '"
 						+ requestid + "'");
-				rs.execute("更新fgld字段SQL：" + "update " + tableName + " set fgld = '" + fgld + "' where requestid = '"
+				rs.execute("update " + tableName + " set fgld = '" + fgld + "' where requestid = '"
 						+ requestid + "'");
 			}
 		}
@@ -94,41 +94,59 @@ public class TranslateProcInfoAction extends BaseBean implements Action {
 			if (!"".equals(xmcy)) {
 				writeLog("更新xmcy字段SQL：" + "update " + tableName + " set xmcy = '" + xmcy + "' where requestid = '"
 						+ requestid + "'");
-				rs.execute("更新xmcy字段SQL：" + "update " + tableName + " set xmcy = '" + xmcy + "' where requestid = '"
+				rs.execute("update " + tableName + " set xmcy = '" + xmcy + "' where requestid = '"
 						+ requestid + "'");
 			}
 		}
 
-		for (int i = 0; i < dt1.size(); i++) {
-			Map<String, String> dt1_map = dt1.get(i);
-			String dt_id = Util.null2String(dt1_map.get("id"));
-			String dt1_fzrwb = Util.null2String(dt1_map.get("fzrwb"));
-			if (!dt1_fzrwb.equals("")) {
-				String fzr = getWorkCode(dt1_fzrwb);
-				writeLog("更新明细表1的fzr字段SQL：" + "update " + tableName + "_dt1 set fzr = '" + fzr + "' where id = '"
-						+ dt_id + "'");
-				rs.execute("更新明细表1的fzr字段SQL：" + "update " + tableName + "_dt1 set fzr = '" + fzr + "' where id = '"
-						+ dt_id + "'");
+		if(dt1 != null) {
+			for (int i = 0; i < dt1.size(); i++) {
+				Map<String, String> dt1_map = dt1.get(i);
+				String dt_id = Util.null2String(dt1_map.get("id"));
+				String dt1_fzrwb = Util.null2String(dt1_map.get("fzrwb"));
+				if (!dt1_fzrwb.equals("")) {
+					String fzr = getWorkCode(dt1_fzrwb);
+					writeLog("更新明细表1的fzr字段SQL：" + "update " + tableName + "_dt1 set fzr = '" + fzr + "' where id = '"
+							+ dt_id + "'");
+					rs.execute("update " + tableName + "_dt1 set fzr = '" + fzr + "' where id = '"
+							+ dt_id + "'");
+				}
 			}
 		}
 
-		return null;
+		return SUCCESS;
 	}
 
 	public String getWorkCode(String hrmid) {
 		RecordSet rs = new RecordSet();
-		rs.execute("select workcode from hrmresource where id = '" + hrmid + "'");
+		rs.execute("select id from hrmresource where workcode = '" + hrmid + "'");
 		rs.next();
-		String workcode = Util.null2String(rs.getString("workcode"));
+		String workcode = Util.null2String(rs.getString("id"));
 		return workcode;
 	}
 
 	public String getWorkCode2(String hrmid) {
 		StringBuffer sb = new StringBuffer(",");
 		RecordSet rs = new RecordSet();
-		rs.execute("select workcode from hrmresource where id in (" + hrmid + ")");
+		StringBuffer stringBuffer = new StringBuffer();
+		if(hrmid.contains(",")) {
+			String[] strs = hrmid.split(",");
+			for(int i = 0; i < strs.length; i++) {
+				stringBuffer.append("'");
+				stringBuffer.append(strs[i]);
+				stringBuffer.append("'");
+				if(i != strs.length -1) {
+					stringBuffer.append(",");
+				}
+			}
+		}
+		if(hrmid.contains(",")) {
+			rs.execute("select id from hrmresource where workcode in (" + stringBuffer.toString() + ")");
+		} else {
+			rs.execute("select id from hrmresource where workcode = '"+hrmid+"'");
+		}
 		while (rs.next()) {
-			String wid = Util.null2String(rs.getString("workcode"));
+			String wid = Util.null2String(rs.getString("id"));
 			sb.append(wid);
 			sb.append(",");
 		}
@@ -142,18 +160,34 @@ public class TranslateProcInfoAction extends BaseBean implements Action {
 
 	public String getDepartmentCode(String depid) {
 		RecordSet rs = new RecordSet();
-		rs.execute("select departmentcode from hrmdepartment where id = '" + depid + "'");
+		rs.execute("select id from hrmdepartment where departmentcode = '" + depid + "'");
 		rs.next();
-		String departmentcode = Util.null2String(rs.getString("departmentcode"));
+		String departmentcode = Util.null2String(rs.getString("id"));
 		return departmentcode;
 	}
 
 	public String getDepartmentCode2(String depid) {
 		StringBuffer sb = new StringBuffer(",");
 		RecordSet rs = new RecordSet();
-		rs.execute("select departmentcode from hrmdepartment where id in (" + depid + ")");
+		StringBuffer stringBuffer = new StringBuffer();
+		if(depid.contains(",")) {
+			String[] strs = depid.split(",");
+			for(int i = 0; i < strs.length; i++) {
+				stringBuffer.append("'");
+				stringBuffer.append(strs[i]);
+				stringBuffer.append("'");
+				if(i != strs.length -1) {
+					stringBuffer.append(",");
+				}
+			}
+		}
+		if(depid.contains(",")) {
+			rs.execute("select id from hrmdepartment where departmentcode in (" + stringBuffer.toString() + ")");
+		} else {
+			rs.execute("select id from hrmdepartment where departmentcode = '"+depid+"'");
+		}
 		while (rs.next()) {
-			String dpid = Util.null2String(rs.getString("departmentcode"));
+			String dpid = Util.null2String(rs.getString("id"));
 			sb.append(dpid);
 			sb.append(",");
 		}
@@ -167,9 +201,9 @@ public class TranslateProcInfoAction extends BaseBean implements Action {
 
 	public String getSubCompanyCode(String comid) {
 		RecordSet rs = new RecordSet();
-		rs.execute("select subcompanycode from hrmsubcompany where id = '" + comid + "'");
+		rs.execute("select id from hrmsubcompany where subcompanycode = '" + comid + "'");
 		rs.next();
-		String subcompanycode = Util.null2String(rs.getString("subcompanycode"));
+		String subcompanycode = Util.null2String(rs.getString("id"));
 		return subcompanycode;
 	}
 
