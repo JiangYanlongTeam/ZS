@@ -36,6 +36,8 @@ public class TranslateProcInfoAction extends BaseBean implements Action {
 		String fgldwb = Util.null2String(map.get("fgldwb"));
 		// 项目成员文本
 		String xmcywb = Util.null2String(map.get("xmcywb"));
+		// 任务责任人文本
+		String rwzrrwb = Util.null2String(map.get("rwzrrwb"));
 
 		@SuppressWarnings("unchecked")
 		List<Map<String, String>> dt1 = (List<Map<String, String>>) requestDataMap.get("dt1");
@@ -46,6 +48,15 @@ public class TranslateProcInfoAction extends BaseBean implements Action {
 				writeLog("更新sqr字段SQL：" + "update " + tableName + " set sqr = '" + sqr + "' where requestid = '"
 						+ requestid + "'");
 				rs.execute("update " + tableName + " set sqr = '" + sqr + "' where requestid = '" + requestid + "'");
+			}
+		}
+
+		if (!"".equals(rwzrrwb)) {
+			String zrr = getWorkCode(rwzrrwb);
+			if (!"".equals(zrr)) {
+				writeLog("更新sqr字段SQL：" + "update " + tableName + " set rwzrr = '" + zrr + "' where requestid = '"
+						+ requestid + "'");
+				rs.execute("update " + tableName + " set rwzrr = '" + zrr + "' where requestid = '" + requestid + "'");
 			}
 		}
 
