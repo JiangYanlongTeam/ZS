@@ -83,7 +83,9 @@ public class PMO_XMJA extends BaseBean implements Action {
         t16104IN.setFWPJNAME(getEncode2(psjg));
         t16104IN.setTFINSTDT(dealDate(jarq));
 
+
         String[] xmcgfjs = xmcgfj.split(",");
+        t16104IN.setODFUJISU(xmcgfjs.length);
         F161041[] F161041s = new F161041[xmcgfjs.length];
         List<String> filenames = new ArrayList<String>();
         String datetime = new SimpleDateFormat("yyyyMMdd").format(new Date());
@@ -146,6 +148,7 @@ public class PMO_XMJA extends BaseBean implements Action {
         }
         t16104IN.setVF161041(F161041s);
         String[] xmpjfjs = xmpjfj.split(",");
+        t16104IN.setZCNUMBER(xmpjfjs.length);
         F161042[] F161042s = new F161042[xmpjfjs.length];
         List<String> filenames1 = new ArrayList<String>();
         String datetime1 = new SimpleDateFormat("yyyyMMdd").format(new Date());

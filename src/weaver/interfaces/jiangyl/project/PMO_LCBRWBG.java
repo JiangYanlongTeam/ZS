@@ -86,6 +86,17 @@ public class PMO_LCBRWBG extends BaseBean implements Action {
             t16093IN.setSSTARTDT(getEncode2(dealDate(jhks)));
             t16093IN.setSFINSTDT(getEncode2(dealDate(jsjs)));
             t16093IN.setBUSIPROP(getEncode2(rwzt));
+            t16093IN.setBUSITYPE("");
+            t16093IN.setBANKCODE("");
+            t16093IN.setBANKNAME("");
+            t16093IN.setESUBJECT("");
+            t16093IN.setTSTARTDT("");
+            t16093IN.setTFINSTDT("");
+            t16093IN.setCOMMENTS("");
+
+
+
+
 
             try {
                 T16093OUT result = servicePortTypeProxy.t16093(head,t16093IN);

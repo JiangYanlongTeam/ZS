@@ -63,6 +63,7 @@ public class PMO_XMDB extends BaseBean implements Action {
         t16105IN.setPROCCODE(getEncode2(xmcode));
         t16105IN.setEASPNEIR(getEncode2(dbfk));
         String[] dbfkfjs = dbfkfj.split(",");
+        t16105IN.setODFUJISU(dbfkfjs.length);
         F161051[] F161051s = new F161051[dbfkfjs.length];
 
         List<String> filenames = new ArrayList<String>();

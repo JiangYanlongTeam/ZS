@@ -64,6 +64,8 @@ public class PMO_RWJDFK extends BaseBean implements Action {
         t16103IN.setSPARFLD2(getEncode2(rwbh));
         t16103IN.setSPARFLD4(getEncode2(rwfk));
         t16103IN.setTFINSTDT(dealDate(wcrq));
+        t16103IN.setODFUJISU(0);
+
 
         String[] xgfjs = rwfj.split(",");
         F161031[] F161031s = new F161031[xgfjs.length];
