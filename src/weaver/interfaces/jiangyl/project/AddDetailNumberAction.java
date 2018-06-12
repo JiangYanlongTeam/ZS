@@ -6,6 +6,11 @@ import weaver.general.Util;
 import weaver.interfaces.workflow.action.Action;
 import weaver.soa.workflow.request.RequestInfo;
 
+/**
+ *
+ * @author jiangyanlong
+ * @date 2018-06-06
+ */
 public class AddDetailNumberAction extends BaseBean implements Action {
 
 	@Override
@@ -35,5 +40,4 @@ public class AddDetailNumberAction extends BaseBean implements Action {
 		}
 		return SUCCESS;
 	}
-
 }

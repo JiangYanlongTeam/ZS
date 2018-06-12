@@ -84,7 +84,7 @@ public class PMO_XMJBXXBG extends BaseBean implements Action {
         writeLog("项目经理："+getWorkCode(xmjl1));
 
         T16092IN stIn = new T16092IN();
-        stIn.setBUSITYPE("");
+        stIn.setBUSITYPE("CP");
         stIn.setBUSIPROP("");
         stIn.setBANKCODE("");
         stIn.setBANKNAME("");

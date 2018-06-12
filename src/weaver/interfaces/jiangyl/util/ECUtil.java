@@ -789,10 +789,12 @@ public class ECUtil extends BaseBean {
 		if (imagefilename.contains(".")) {
 			String filename = imagefilename.substring(0, imagefilename.lastIndexOf("."));
 			String type = imagefilename.substring(imagefilename.lastIndexOf("."));
-			name = filename + uuid + type;
+//			name = filename + uuid + type;
+			name = filename + type;
 			uuid = uuid + type;
 		} else {
-			name = imagefilename + uuid;
+//			name = imagefilename + uuid;
+			name = imagefilename;
 		}
 		writeLog("文档加随机数后名称：" + name);
 		String filerealpath = Util.null2String(rs.getString("filerealpath"));

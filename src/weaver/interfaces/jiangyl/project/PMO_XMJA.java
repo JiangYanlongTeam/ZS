@@ -42,7 +42,7 @@ public class PMO_XMJA extends BaseBean implements Action {
         String xmdf = Util.null2String(map.get("xmdf"));
         String psjg = Util.null2String(map.get("psjg"));
         String xmpjfj = Util.null2String(map.get("xmpjfj"));
-        String jarq = Util.null2String(map.get("jarq"));
+        String jarq = Util.null2String(map.get("jsrq"));
 
 
         ServicePortTypeProxy servicePortTypeProxy = new ServicePortTypeProxy();
