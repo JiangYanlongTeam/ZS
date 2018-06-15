@@ -23,7 +23,7 @@ public class DealDtInfoAction extends BaseBean implements Action {
         rs.next();
         String mainID = Util.null2String(rs.getString("id"));
         writeLog("主表流程对应ID：" + mainID);
-        String sql = "select * from " + tableName + "_dt1 where mainid = '" + mainID + "' ";
+        String sql = "select * from " + tableName + "_dt1 where mainid = '" + mainID + "' order by id";
         writeLog("获取明细表1数据：" + sql);
         rs.execute(sql);
         int count = rs.getCounts();

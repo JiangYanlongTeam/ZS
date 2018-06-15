@@ -100,7 +100,7 @@ public class ECUtil extends BaseBean {
 			String detailtablename = Util.null2String(rs.getString("tablename"));
 			String orderid = Util.null2String(rs.getString("orderid"));
 			List<Map<String, String>> list = new ArrayList<Map<String, String>>();
-			rs2.executeSql("select * from " + detailtablename + " where mainid=" + maindatamap.get("id"));
+			rs2.executeSql("select * from " + detailtablename + " where mainid=" + maindatamap.get("id") + " order by id asc ");
 			while (rs2.next()) {
 				Map<String, String> detaildatamap = new HashMap<String, String>();
 				// 遍历所有字段
