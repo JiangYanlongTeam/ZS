@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c366c91e-dffb-462e-ace4-eab53e38bc81" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/DealDtInfoAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prop/zs_project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/CheckPercentAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webcontent/select.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/zs_pmo.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/zs_pmo.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/AddDetailNumberAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/AddDetailNumberAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/PMO_XMJA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/PMO_XMJA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/PMO_XMJBXXBG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/PMO_XMJBXXBG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weaver/interfaces/jiangyl/util/ECUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weaver/interfaces/jiangyl/util/ECUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/LCBRWBHAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/LCBRWBHAction.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,59 +24,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AddDetailNumberAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/AddDetailNumberAction.java">
+      <file leaf-file-name="LCBRWBHAction.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/LCBRWBHAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PM017018Action.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/PM017018Action.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="211" column="54" lean-forward="true" selection-start-line="211" selection-start-column="54" selection-end-line="211" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PMO_XMJBXXBG.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/PMO_XMJBXXBG.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2355">
-              <caret line="178" column="56" selection-start-line="178" selection-start-column="56" selection-end-line="178" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TranslateProcInfoAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/TranslateProcInfoAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PMO_LCBRWBG.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/PMO_LCBRWBG.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="93" column="32" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="32" />
+            <state relative-caret-position="602">
+              <caret line="86" column="40" lean-forward="true" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1036#1051#0" expanded="true" />
+                <element signature="e#1342#1358#0" expanded="true" />
+                <element signature="e#1415#1431#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DealDtInfoAction.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/DealDtInfoAction.java">
+      <file leaf-file-name="CheckPercentAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/CheckPercentAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="43" column="65" lean-forward="true" selection-start-line="43" selection-start-column="65" selection-end-line="43" selection-end-column="65" />
+            <state relative-caret-position="595">
+              <caret line="57" column="9" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="57" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#976#991#0" expanded="true" />
+                <element signature="e#1220#1236#0" expanded="true" />
+                <element signature="e#1351#1367#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zs_project.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prop/zs_project.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -89,14 +68,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>rwzrrwb</find>
-      <find>sqrwb</find>
       <find>BUSITYP2</find>
       <find>NUMBEREC</find>
       <find>SENDMESG</find>
@@ -125,6 +103,8 @@
       <find>BUSI</find>
       <find>TFINSTDT</find>
       <find>execute</find>
+      <find>rwzt</find>
+      <find>t16093</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -142,6 +122,7 @@
     <setting file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/service/workflow/WFServiceImpl.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/PMO_XMDB.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/PMO_LCBRWBG.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/LCBRWBHAction.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/PMO_XMJA.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/PMO_RWDB.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/PM017018Action.java" root0="SKIP_INSPECTION" />
@@ -168,14 +149,18 @@
         <option value="$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/Test.java" />
         <option value="$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/PMO_RWDB.java" />
         <option value="$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/TranslateProcInfoAction.java" />
-        <option value="$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/PMO_LCBRWBG.java" />
         <option value="$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/PMO_RWJDFK.java" />
         <option value="$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/PMO_XMDB.java" />
         <option value="$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/PMO_XMJBXXBG.java" />
         <option value="$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/AddDetailNumberAction.java" />
         <option value="$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/PMO_XMJA.java" />
-        <option value="$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/DealDtInfoAction.java" />
         <option value="$PROJECT_DIR$/src/weaver/interfaces/jiangyl/util/ECUtil.java" />
+        <option value="$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/PMO_LCBRWBG.java" />
+        <option value="$PROJECT_DIR$/webcontent/select.html" />
+        <option value="$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/DealDtInfoAction.java" />
+        <option value="$PROJECT_DIR$/prop/zs_project.properties" />
+        <option value="$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/CheckPercentAction.java" />
+        <option value="$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/LCBRWBHAction.java" />
       </list>
     </option>
   </component>
@@ -201,6 +186,7 @@
     <panes>
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,6 +197,11 @@
             <path>
               <item name="ZS" type="b2602c69:ProjectViewProjectNode" />
               <item name="ZS" type="462c0819:PsiDirectoryNode" />
+              <item name="prop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ZS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -232,7 +223,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="jiangyl" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="DealDtInfoAction" type="1a9f42e2:ClassTreeNode" />
+              <item name="CheckPercentAction" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="ZS" type="b2602c69:ProjectViewProjectNode" />
@@ -240,28 +231,26 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="jiangyl" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="PM017018Action" type="1a9f42e2:ClassTreeNode" />
+              <item name="LCBRWBHAction" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="ZS" type="b2602c69:ProjectViewProjectNode" />
               <item name="ZS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jiangyl" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="webcontent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -286,29 +275,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DealDtInfoAction">
-    <configuration name="DealDtInfoAction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="weaver.interfaces.jiangyl.project.DealDtInfoAction" />
-      <module name="ZS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="weaver.interfaces.jiangyl.project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="WFServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="weaver.interfaces.jiangyl.service.workflow.WFServiceImpl" />
-      <module name="ZS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="weaver.interfaces.jiangyl.service.workflow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -350,16 +317,6 @@
       <properties />
       <listeners />
     </configuration>
-    <list>
-      <item itemvalue="Application.WFServiceImpl" />
-      <item itemvalue="Application.DealDtInfoAction" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.DealDtInfoAction" />
-        <item itemvalue="Application.WFServiceImpl" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -405,6 +362,17 @@
       <workItem from="1528771159389" duration="1000" />
       <workItem from="1528774300832" duration="5867000" />
       <workItem from="1528785170162" duration="514000" />
+      <workItem from="1528786560394" duration="115000" />
+      <workItem from="1528789558154" duration="505000" />
+      <workItem from="1528852403604" duration="2693000" />
+      <workItem from="1528864582339" duration="3247000" />
+      <workItem from="1528874320788" duration="1488000" />
+      <workItem from="1528877263360" duration="102000" />
+      <workItem from="1528958249018" duration="3179000" />
+      <workItem from="1529028286163" duration="1674000" />
+      <workItem from="1529048404474" duration="306000" />
+      <workItem from="1529373991964" duration="295000" />
+      <workItem from="1529392470341" duration="3197000" />
     </task>
     <task id="LOCAL-00001" summary="创建oa流程接口开发/项目立项申请字段更改/调用PMO webservice方法更新">
       <created>1527759224685</created>
@@ -434,48 +402,101 @@
       <option name="project" value="LOCAL" />
       <updated>1528272181648</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="04里程碑任务变更，复制明细表1数据到明细表2，更新明细表1的fzrwb转换人员id到fzr字段，修改传附件给PMO的文件filename去掉随机数">
+      <created>1528786640727</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1528786640727</updated>
+    </task>
+    <task id="LOCAL-00006" summary="与PMO系统对接开发，明细表新增任务编号开发">
+      <created>1529028497227</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1529028497227</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57762000" />
+    <option name="totallyTimeSpent" value="74563000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="835" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.3298292" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="bottom" id="调试" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3298292" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3298292" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3298292" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="调色板" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info anchor="bottom" id="Problems" order="7" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info id="设计器" order="3" />
+      <window_info anchor="right" id="Database" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="UI Designer" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39947438" />
-      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3298292" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Designer" order="4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.3298292" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.3298292" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="4" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298292" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.3298292" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3298292" />
+      <window_info anchor="right" id="调色板" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="bottom" id="Problems" order="7" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info id="设计器" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3298292" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="调试" order="8" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39947438" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -487,37 +508,11 @@
     <MESSAGE value="创建oa流程接口开发/项目立项申请字段更改/调用PMO webservice方法更新" />
     <MESSAGE value="调用PMO系统接口" />
     <MESSAGE value="调用PMO系统接口（增加一些空字段）" />
-    <option name="LAST_COMMIT_MESSAGE" value="调用PMO系统接口（增加一些空字段）" />
+    <MESSAGE value="04里程碑任务变更，复制明细表1数据到明细表2，更新明细表1的fzrwb转换人员id到fzr字段，修改传附件给PMO的文件filename去掉随机数" />
+    <MESSAGE value="与PMO系统对接开发，明细表新增任务编号开发" />
+    <option name="LAST_COMMIT_MESSAGE" value="与PMO系统对接开发，明细表新增任务编号开发" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/service/workflow/WFService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/PM017018Action.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="160" column="30" lean-forward="true" selection-start-line="160" selection-start-column="30" selection-end-line="160" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/util/ECUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/service/workflow/WFServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="43" column="77" selection-start-line="43" selection-start-column="70" selection-end-line="43" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/util/ECUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -543,13 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../toshiba/开发项目/工作项目/赢车/ycclassbean.zip!/weaver/general/Util.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="1429" column="22" selection-start-line="1429" selection-start-column="22" selection-end-line="1429" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -619,13 +607,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/service/workflow/FileTempInfo.java" />
-    <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/service/workflow/FileInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/zs_pmo.jar!/org/tempuri/ns_xsd/T16092IN.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -634,13 +615,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/Test.java" />
-    <entry file="jar://$PROJECT_DIR$/lib/zs_pmo.jar!/org/tempuri/ns_xsd/T16093IN.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="195" column="16" selection-start-line="195" selection-start-column="16" selection-end-line="195" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/zs_pmo.jar!/org/tempuri/ns_xsd/T16103IN.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -683,27 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/zs_pmo.jar!/org/tempuri/ns_xsd/Service_wsdl/ServiceLocator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/zs_pmo.jar!/org/tempuri/ns_xsd/Service_wsdl/ServicePortType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="378" column="14" selection-start-line="378" selection-start-column="14" selection-end-line="378" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/zs_pmo.jar!/org/tempuri/ns_xsd/Service_wsdl/ServicePortTypeProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="936" column="39" lean-forward="true" selection-start-line="936" selection-start-column="39" selection-end-line="936" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/axis.jar!/org/apache/axis/utils/JavaUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2689">
@@ -725,13 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/service/workflow/MainInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/service/workflow/DetailRow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -743,13 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/service/workflow/WFServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2775">
-          <caret line="210" column="46" selection-start-line="210" selection-start-column="31" selection-end-line="210" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -778,21 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1548">
           <caret line="569" column="41" selection-start-line="569" selection-start-column="37" selection-end-line="569" selection-end-column="41" />
-          <folding>
-            <element signature="e#8502#8503#0" expanded="true" />
-            <element signature="e#8560#8561#0" expanded="true" />
-            <element signature="e#37888#37889#0" expanded="true" />
-            <element signature="e#37932#37933#0" expanded="true" />
-            <element signature="e#38172#38173#0" expanded="true" />
-            <element signature="e#38210#38211#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/AddDetailNumberAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -800,41 +724,140 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding>
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/util/ECUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="100" column="71" selection-start-line="100" selection-start-column="71" selection-end-line="100" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/zs_pmo.jar!/org/tempuri/ns_xsd/Service_wsdl/ServicePortType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="380" column="14" selection-start-line="380" selection-start-column="14" selection-end-line="380" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/zs_pmo.jar!/org/tempuri/ns_xsd/Service_wsdl/ServiceLocator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/zs_pmo.jar!/org/tempuri/ns_xsd/Service_wsdl/ServicePortTypeProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="939" column="54" selection-start-line="939" selection-start-column="46" selection-end-line="939" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/zs_pmo.jar!/org/tempuri/ns_xsd/T16093IN.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/PMO_LCBRWBG.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="93" column="32" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="32" />
+        <state relative-caret-position="233">
+          <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/PM017018Action.java">
+    <entry file="file://$PROJECT_DIR$/webcontent/select.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="211" column="54" lean-forward="true" selection-start-line="211" selection-start-column="54" selection-end-line="211" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/util/ECUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="775" column="7" selection-start-line="775" selection-start-column="7" selection-end-line="775" selection-end-column="7" />
+        <state relative-caret-position="345">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/DealDtInfoAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="43" column="65" lean-forward="true" selection-start-line="43" selection-start-column="65" selection-end-line="43" selection-end-column="65" />
+        <state relative-caret-position="645">
+          <caret line="48" column="65" lean-forward="true" selection-start-line="48" selection-start-column="65" selection-end-line="48" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/service/workflow/MainInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/service/workflow/FileInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/service/workflow/WFServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3960">
+          <caret line="289" selection-start-line="289" selection-end-line="289" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/AddDetailNumberAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="27" column="67" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/PM017018Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="79" column="76" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prop/zs_project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../toshiba/开发项目/工作项目/赢车/ycclassbean.zip!/weaver/general/Util.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="1429" column="22" selection-start-line="1429" selection-start-column="22" selection-end-line="1429" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/CheckPercentAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="57" column="9" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="57" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#976#991#0" expanded="true" />
+            <element signature="e#1220#1236#0" expanded="true" />
+            <element signature="e#1351#1367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weaver/interfaces/jiangyl/project/LCBRWBHAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="86" column="40" lean-forward="true" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1036#1051#0" expanded="true" />
+            <element signature="e#1342#1358#0" expanded="true" />
+            <element signature="e#1415#1431#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

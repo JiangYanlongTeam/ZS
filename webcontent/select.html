@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>select change demo</title>
+</head>
+<input>
+    <select id="sel" name="sel" onchange="selChange(this)">
+        <option value="0">全部</option>
+        <option value="1">文件</option>
+        <option value="2">编辑</option>
+        <option value="3">视图</option>
+        <option value="4">导航</option>
+    </select>
+    <input id="reg" name="reg" value="" onchange="inChange(this)"/>
+</body>
+<script>
+    function selChange (obj) {
+        var selValue = obj.value;
+        alert("选中的值：" + selValue);
+    }
+    function inChange(obj){
+        //var reg = /^([a-zA-Z0-9])|([a-zA-Z])+$/;
+        var reg = /[a-zA-Z0-9]+/;
+        if(!reg.test(obj.value)) {
+            alert("对不起，您输入的字符串类型格式不正确!");//请将“字符串类型”要换成你要验证的那个属性名称！
+            obj.value = "";
+        }
+    }
+</script>
+</html>
